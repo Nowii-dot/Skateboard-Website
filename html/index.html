@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/c2e4aa9ea1.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://kit.fontawesome.com/b18895b467.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+            <nav class="menu">
+                <ul>
+                    <li class="navItem"><a href="#slider">slider</a></li>
+                    <li class="navItem"><a href="#features">features</a></li>
+                    <li class="navItem"><a href="#product">product</a></li>
+                    <li class="navItem"><a href="#gallery">gallery</a></li>
+                    <li class="navItem"><a href="#contact">contact</a></li>
+                </ul>
+            </nav>           
+    </header>
+    
+    <section id="slider" class="slider">
+        <div class="heading-box">
+            <h1>Welcome in CoolStore</h1>
+            <h2>Check our awesome products</h2>
+            <a href="#features" class="btn">
+                More <i class="fas fa-arrow-down"></i>
+            </a>
+        </div>
+    </section>
+    <section id="features" class="features">
+        <h2>Product features</h2>
+        <div class="flex-container">
+            <div class="flex-item">
+                <i class="fa-solid fa-user"></i>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+            </div>
+            <div class="flex-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+            </div>
+            <div class="flex-item">
+                <i class="fa-solid fa-person-snowboarding"></i>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    </section>
+    <section id="product" class="product">
+        <h2>About Product</h2>
+        <div class="flex-container">
+            <div class="flex-item">
+                <img src="/image/skateboard.jpg" alt="skateboard" title="Awsome skateboard"/>
+            </div>
+            <div class="flex-item">
+                <h3>The best skateboard</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex fuga ipsam possimus quasi nesciunt earum harum quibusdam, deleniti, ipsa blanditiis mollitia tempora culpa consequatur quis commodi perspiciatis, quisquam at odit?</p>
+                <a href="#contact" class="btn">Order Now</a>
+            </div>
+        </div>
+
+
+    </section>
+    <section id="gallery" class="gallery">
+        <h2>Gallery</h2>
+        <div class="container">
+            <div class="gallery-box">
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+            </div>
+         </div>
+        
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contact us</h2>
+        <div class="contact-box">
+            <form method="POST">
+                <label for="Name">Name</label>
+                <input type="text" placeholder="Imię" id="Name" required pattern="^[A-Z].*" maxlength="30" />
+                <label for="Email">Email</label>
+                <input type="email" placeholder="Email" id="Email" required/>
+                <label for="Message">Message</label>
+                <textarea cols="30" rows="4" placeholder="Message text" id="Message"></textarea>
+                <input type="submit" value="Send" class="btn" />
+            </form> 
+        </div>
+    </section>
+
+    <footer>
+        <div class="flex-container">
+            <div class="flex-item">
+                <ul class="social">
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <div class="copy flex-item">
+                <p>&copy; 2023 CoolStore</p>
+            </div>
+            <div class="flex-item">
+                <ul class="sitemap">
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#product">Product</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="" async defer></script>
+</body>
+</html>
