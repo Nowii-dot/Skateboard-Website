@@ -1,5 +1,5 @@
 ﻿# Skateboard-Website
-przykładowy projekt strony
+##przykładowy projekt strony
 
 
 ![alt text](/image/zd1.jpg)
