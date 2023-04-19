@@ -3,4 +3,4 @@ przykładowy projekt strony
 
 
 ![alt text](/image/zd1.jpg)
-![alt text](/image/zd2.jpg)
+![alt text](README.md/image/zd2.jpg)
